@@ -1,0 +1,572 @@
+[
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "MilvusStore",
+        "importPath": "src.vectorstore.milvus_connect",
+        "description": "src.vectorstore.milvus_connect",
+        "isExtraImport": true,
+        "detail": "src.vectorstore.milvus_connect",
+        "documentation": {}
+    },
+    {
+        "label": "Azurellm",
+        "importPath": "src.llms.Azure",
+        "description": "src.llms.Azure",
+        "isExtraImport": true,
+        "detail": "src.llms.Azure",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_dict",
+        "importPath": "src.prompts.prompt",
+        "description": "src.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "src.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi.routing",
+        "description": "fastapi.routing",
+        "isExtraImport": true,
+        "detail": "fastapi.routing",
+        "documentation": {}
+    },
+    {
+        "label": "monitoring",
+        "importPath": "src.app.api",
+        "description": "src.app.api",
+        "isExtraImport": true,
+        "detail": "src.app.api",
+        "documentation": {}
+    },
+    {
+        "label": "core",
+        "importPath": "src.app.api",
+        "description": "src.app.api",
+        "isExtraImport": true,
+        "detail": "src.app.api",
+        "documentation": {}
+    },
+    {
+        "label": "toml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "toml",
+        "description": "toml",
+        "detail": "toml",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "importPath": "src.app.api.router",
+        "description": "src.app.api.router",
+        "isExtraImport": true,
+        "detail": "src.app.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "AzureChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "setting",
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "isExtraImport": true,
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "setting",
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "isExtraImport": true,
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Milvus",
+        "importPath": "langchain_community.vectorstores.milvus",
+        "description": "langchain_community.vectorstores.milvus",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores.milvus",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "docx",
+        "description": "docx",
+        "isExtraImport": true,
+        "detail": "docx",
+        "documentation": {}
+    },
+    {
+        "label": "AzureOpenAIEmbeddings",
+        "importPath": "langchain_community.embeddings",
+        "description": "langchain_community.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_community.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "connections",
+        "importPath": "pymilvus",
+        "description": "pymilvus",
+        "isExtraImport": true,
+        "detail": "pymilvus",
+        "documentation": {}
+    },
+    {
+        "label": "Collection",
+        "importPath": "pymilvus",
+        "description": "pymilvus",
+        "isExtraImport": true,
+        "detail": "pymilvus",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "ChatQuestion",
+        "kind": 6,
+        "importPath": "src.app.api.core.model",
+        "description": "src.app.api.core.model",
+        "peekOfCode": "class ChatQuestion(BaseModel):\n    query: str",
+        "detail": "src.app.api.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.app.api.core.view",
+        "description": "src.app.api.core.view",
+        "peekOfCode": "router = APIRouter()\nwarnings.filterwarnings(\"ignore\")\n@router.post(\"/uploadfile/\")\nasync def upload_file(file: UploadFile = File(...)):\n    content = await file.read()\n    suffix = f\".{file.filename.split('.')[-1]}\" if '.' in file.filename else \"\"\n    milvusClient = MilvusStore()\n    documents = await milvusClient.load_file_to_vectorstore(content, suffix=suffix, file_name=file.filename)\n    return {\"success\": \"ok\"}\n@router.options(\"/chat/\")",
+        "detail": "src.app.api.core.view",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "src.app.api.monitoring.views",
+        "description": "src.app.api.monitoring.views",
+        "peekOfCode": "def health_check() -> None:\n    \"\"\"Checks the health of a project\n    It returns 200 if the project is healthy. \"\"\"\n    return {\"status\": \"ok\"}",
+        "detail": "src.app.api.monitoring.views",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.app.api.monitoring.views",
+        "description": "src.app.api.monitoring.views",
+        "peekOfCode": "router = APIRouter()\nwarnings.filterwarnings(\"ignore\")\n@router.get(\"/health\")\ndef health_check() -> None:\n    \"\"\"Checks the health of a project\n    It returns 200 if the project is healthy. \"\"\"\n    return {\"status\": \"ok\"}",
+        "detail": "src.app.api.monitoring.views",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "kind": 5,
+        "importPath": "src.app.api.router",
+        "description": "src.app.api.router",
+        "peekOfCode": "api_router = APIRouter()\napi_router.include_router(monitoring.router, prefix=\"/test\", tags=[\"health_check\"])\napi_router.include_router(core.router, prefix=\"/core\", tags=[\"core\"])",
+        "detail": "src.app.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.app.application",
+        "description": "src.app.application",
+        "peekOfCode": "app = FastAPI(\n    title=\"DropBox\",\n    docs_url=\"/api/docs\",\n    redoc_url=\"/api/redoc\",\n    openapi_url=\"/api/openapi.json\",\n)\n# register_startup_event(app)\n# register_shutdown_event(app)\n# app.add_middleware(ExceptionHandlerMiddleware)\n# Main router for the API.",
+        "detail": "src.app.application",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    ZILLIS_ENDPOINT: str = os.environ.get('ZILLIS_ENDPOINT')\n    ZILLIS_TOKEN: str = os.environ.get('ZILLIS_TOKEN')\n    ZILLIS_COLLECTION_NAME: str = os.environ.get('ZILLIS_COLLECTION_NAME')\n    AZURE_OPENAI_EMBEDDING_DEPLOYMENT: str = os.environ.get('AZURE_OPENAI_EMBEDDING_DEPLOYMENT')\n    AZURE_OPENAI_API_KEY: str = os.environ.get('AZURE_OPENAI_API_KEY')\n    AZURE_OPENAI_ENDPOINT: str = os.environ.get('AZURE_OPENAI_ENDPOINT')\n    AZURE_OPENAI_API_VERSION: str = os.environ.get('AZURE_OPENAI_API_VERSION')\n    AZURE_OPENAI_API_TYPE: str = os.environ.get('AZURE_OPENAI_API_TYPE')\n    AZURE_OPENAI_LLM_KEY: str = os.environ.get('AZURE_OPENAI_LLM_KEY')",
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "setting",
+        "kind": 5,
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "peekOfCode": "setting = Settings()",
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "register_startup_event",
+        "kind": 2,
+        "importPath": "src.app.lifetime",
+        "description": "src.app.lifetime",
+        "peekOfCode": "def register_startup_event(app: FastAPI,) -> Callable[[], Awaitable [None]]: # pragma: no cove\n    \"\"\"\n    Actions to run on application startup.\n    This function uses fastAPI app to store data in the state, such as db_engine.\n    :param app: the fastAPI application.\n    return: function that actually performs actions.\n    \"\"\"\n    @app.on_event(\"startup\")\n    async def _startup() ->None:\n        pass",
+        "detail": "src.app.lifetime",
+        "documentation": {}
+    },
+    {
+        "label": "register_shutdown_event",
+        "kind": 2,
+        "importPath": "src.app.lifetime",
+        "description": "src.app.lifetime",
+        "peekOfCode": "def register_shutdown_event(app: FastAPI,) -> Callable[[], Awaitable [None]]: # pragma: no cove\n    \"\"\"\n    Actions to run on application startup.\n    This function uses fastAPI app to store data in the state, such as db_engine.\n    :param app: the fastAPI application.\n    return: function that actually performs actions.\n    \"\"\"\n    @app.on_event(\"shutdown\")\n    async def _shutdown() ->None:\n        pass",
+        "detail": "src.app.lifetime",
+        "documentation": {}
+    },
+    {
+        "label": "Azurellm",
+        "kind": 6,
+        "importPath": "src.llms.Azure",
+        "description": "src.llms.Azure",
+        "peekOfCode": "class Azurellm:\n    def __init__(self):\n        pass\n    async def retrieve_answer_using_llm(self, input_data, prompt_dict):\n        prompt = ChatPromptTemplate.from_messages(\n            [\n                (\n                    \"system\",  prompt_dict[\"system_prompt\"]\n                ),\n                (",
+        "detail": "src.llms.Azure",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "src.llms.Azure",
+        "description": "src.llms.Azure",
+        "peekOfCode": "llm = AzureChatOpenAI(\n    api_key = setting.AZURE_OPENAI_LLM_KEY,\n    azure_deployment = \"gpt-4o\",\n    model = \"gpt-4o\",\n    api_version=\"2024-12-01-preview\",\n    azure_endpoint=setting.AZURE_OPENAI_LLM_ENDPOINT,\n    temperature=0,\n    request_timeout=httpx.Timeout(20.0),\n    max_retries=5,\n    streaming=True",
+        "detail": "src.llms.Azure",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_dict",
+        "kind": 5,
+        "importPath": "src.prompts.prompt",
+        "description": "src.prompts.prompt",
+        "peekOfCode": "prompt_dict = {\n    \"system_prompt\":\"\"\"\n            You are an expert insurance advisor. Use only the information provided in the context below to answer the user's question.\n            ==================== CONTEXT ====================\n            {context}\n            ================== END CONTEXT ==================\n            RULES:\n            - ONLY use the information in the context to answer the question.\n            - If the answer is not found in the context, say:\n            \"I'm sorry, but I couldn't find that information in the provided documents.\"",
+        "detail": "src.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "MilvusStore",
+        "kind": 6,
+        "importPath": "src.vectorstore.milvus_connect",
+        "description": "src.vectorstore.milvus_connect",
+        "peekOfCode": "class MilvusStore:\n    def __init__(self):\n        self.mulvus_url = setting.ZILLIS_ENDPOINT\n        self.milvus_token = setting.ZILLIS_TOKEN\n    async def get_vectorstore(self, collection_name: str):\n        vector_store = Milvus(\n            embeddings,\n            collection_name=collection_name,\n            connection_args = {\"uri\": self.mulvus_url, \"token\": self.milvus_token}\n        )",
+        "detail": "src.vectorstore.milvus_connect",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "kind": 5,
+        "importPath": "src.vectorstore.milvus_connect",
+        "description": "src.vectorstore.milvus_connect",
+        "peekOfCode": "embeddings = AzureOpenAIEmbeddings(\n    azure_deployment=setting.AZURE_OPENAI_EMBEDDING_DEPLOYMENT,\n    openai_api_key=setting.AZURE_OPENAI_API_KEY,\n    openai_api_version=setting.AZURE_OPENAI_API_VERSION,\n    openai_api_type=\"azure\",\n    chunk_size=1000,\n    validate_base_url=False\n)\nconnections.connect(\n    alias=\"default\",",
+        "detail": "src.vectorstore.milvus_connect",
+        "documentation": {}
+    },
+    {
+        "label": "InterceptHandler",
+        "kind": 6,
+        "importPath": "src.logging",
+        "description": "src.logging",
+        "peekOfCode": "class InterceptHandler(logging.Handler):\n    def emit(self, record: logging.LogRecord) -> None: #pragma: no cov\n        \"\"\"\n        Propagates logs to loguru.  \n        :param record: record to log.\n        \"\"\"\n        try:\n            level: Union [str, int] = logger.level(record.levelname).name \n        except ValueError:\n            level= record.levelno",
+        "detail": "src.logging",
+        "documentation": {}
+    },
+    {
+        "label": "configure_logging",
+        "kind": 2,
+        "importPath": "src.logging",
+        "description": "src.logging",
+        "peekOfCode": "def configure_logging() -> None: #pragma: no cover\n    \"\"\"Configures logging.\"\"\"\n    print(\"configuring\")\n    intercept_handler = InterceptHandler()\n    logging.basicConfig(handlers=[intercept_handler], level=logging.NOTSET)\n    for logger_name in logging.root.manager.loggerDict:\n        if logger_name.startswith(\"uvicorn.\"):\n            logging.getLogger(logger_name).handlers = []\n        if logger_name.startswith(\"taskiq.\"):\n            logging.getLogger(logger_name).root.handiers = [intercept_handler]",
+        "detail": "src.logging",
+        "documentation": {}
+    },
+    {
+        "label": "record_formatter",
+        "kind": 2,
+        "importPath": "src.logging",
+        "description": "src.logging",
+        "peekOfCode": "def record_formatter(record: dict[str, Any]) -> str:\n    log_format = (\n    \"<green>(time:YYYY-MM-DD HH:mm:ss.SSS)</green> \"\n    \"| <level>{level: <8}</level> \"\n    \"| <magenta>trace_id={extra[trace_id]}</magenta> \"\n    \"| <blue>span_id={extra[span_id]}</blue> \"\n    \"| <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> \"\n    \"- <level>{message}</level>\\n\"\n    )\n    # span = get_current_span()",
+        "detail": "src.logging",
+        "documentation": {}
+    }
+]
