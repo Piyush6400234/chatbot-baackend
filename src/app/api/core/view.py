@@ -4,6 +4,7 @@ from src.vectorstore.milvus_connect import MilvusStore
 from .model import ChatQuestion
 from src.llms.Azure import Azurellm
 from src.prompts.prompt import prompt_dict
+from src.app.config import setting
 
 router = APIRouter()
 
@@ -31,14 +32,13 @@ async def options_handler(response: Response):
 @router.post("/chat/")
 async def upload_file(request: ChatQuestion, response:Response):
     vectorStore = MilvusStore()
-    vectorCollection = await vectorStore.get_vectorstore(collection_name="demo_llm_app_2")
+    vectorCollection = await vectorStore.get_vectorstore(collection_name=setting.ZILLIS_COLLECTION_NAME)
     docs = await vectorStore.search_vectorStore(request.query, vectorCollection)
     context = ' '
 
 
     for i in docs:
-        if i[1]>=0.52:
-            context = context + i[0].page_content
+        context = context + i[0].page_content
     
     input_data = {
         "question": request.query,

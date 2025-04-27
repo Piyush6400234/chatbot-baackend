@@ -169,6 +169,30 @@
         "documentation": {}
     },
     {
+        "label": "setting",
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "isExtraImport": true,
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "setting",
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "isExtraImport": true,
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "setting",
+        "importPath": "src.app.config",
+        "description": "src.app.config",
+        "isExtraImport": true,
+        "detail": "src.app.config",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi.routing",
         "description": "fastapi.routing",
@@ -293,22 +317,6 @@
         "documentation": {}
     },
     {
-        "label": "setting",
-        "importPath": "src.app.config",
-        "description": "src.app.config",
-        "isExtraImport": true,
-        "detail": "src.app.config",
-        "documentation": {}
-    },
-    {
-        "label": "setting",
-        "importPath": "src.app.config",
-        "description": "src.app.config",
-        "isExtraImport": true,
-        "detail": "src.app.config",
-        "documentation": {}
-    },
-    {
         "label": "Milvus",
         "importPath": "langchain_community.vectorstores.milvus",
         "description": "langchain_community.vectorstores.milvus",
@@ -322,6 +330,14 @@
         "description": "langchain.document_loaders",
         "isExtraImport": true,
         "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
         "documentation": {}
     },
     {
@@ -379,6 +395,22 @@
         "description": "pymilvus",
         "isExtraImport": true,
         "detail": "pymilvus",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "docx.table",
+        "description": "docx.table",
+        "isExtraImport": true,
+        "detail": "docx.table",
+        "documentation": {}
+    },
+    {
+        "label": "Paragraph",
+        "importPath": "docx.text.paragraph",
+        "description": "docx.text.paragraph",
+        "isExtraImport": true,
+        "detail": "docx.text.paragraph",
         "documentation": {}
     },
     {
@@ -520,7 +552,7 @@
         "kind": 5,
         "importPath": "src.prompts.prompt",
         "description": "src.prompts.prompt",
-        "peekOfCode": "prompt_dict = {\n    \"system_prompt\":\"\"\"\n            You are an expert insurance advisor. Use only the information provided in the context below to answer the user's question.\n            ==================== CONTEXT ====================\n            {context}\n            ================== END CONTEXT ==================\n            RULES:\n            - ONLY use the information in the context to answer the question.\n            - If the answer is not found in the context, say:\n            \"I'm sorry, but I couldn't find that information in the provided documents.\"",
+        "peekOfCode": "prompt_dict = {\n    \"system_prompt\":\"\"\"\n            You are an expert insurance advisor. Use the provided context exclusively to answer the user's question. Context might come from Summary of Benefits and Coverage (SOB) documents or the Insurance Plan Medical Eligibility Criteria document. Each context chunk begins with either an insurance plan name or \"Insurance Plan Medical Eligibility Criteria.\"\n            ==================== CONTEXT ====================  \n            {context}  \n            ================= END CONTEXT ==================\n            **INSTRUCTIONS:**\n            1. Identify if the query pertains to benefits and coverage details or eligibility criteria based on the context.\n            2. Use only the provided context to respond to the question.\n            3. If the required information is absent, say:  ",
         "detail": "src.prompts.prompt",
         "documentation": {}
     },
